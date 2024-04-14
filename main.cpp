@@ -1,32 +1,33 @@
-#include <iostream>
+#include<iostream> 
 #include "encryption.h"
 
 using namespace std;
 
 int main() {
-    string filename;
-    char Mode;
 
-    cout << "ENTER THE FILE NAME: ";
+    string filename;
+    char mode;
+
+    cout<<"Enter The Filename: ";
     getline(cin >> ws, filename);
 
-    cout << "Encrypt (E) or Decrypt (D)? ";
-    cin >> Mode;
+    cout<< "Encrypt(e) or Decrypt(d)? ";
+    cin>> mode;
 
-    if (Mode == 'e' || Mode == 'E') {
-        if (encryptFile(filename, true)) {
-            cout << "Encryption completed successfully." << endl;
-        } else {
-            cerr << "Error: Unable to perform encryption.";
+    if(mode == 'e'||mode == 'E') {
+        if(encryptfile(filename, true)) {
+            cout << "Encryption completed succesfully." <<endl;
+        } else{
+            cerr << "error unable to perform encryption" << endl;
         }
-    } else if (Mode == 'D' || Mode == 'd') {
-        if (encryptFile(filename, false)) {
-            cout << "Decryption completed successfully." << endl;
-        } else {
-            cerr << "Error: Unable to perform decryption.";
+    } else if (mode == 'd' || mode == 'D') {
+        if(encryptfile(filename, false))  {
+            cout << "Cecryption complete succesfully." << endl;
+        } else{
+            cerr << "error : Unable to perform ecryption. " << endl;
         }
     } else {
-        cerr << "Error: Invalid mode selection. Use 'E' for encryption or 'D' for decryption." << endl;
+        cerr << "Error: Invalid mode selection. Use 'e' for encryption or 'd' for  decryption. " << endl;
     }
 
     return 0;
