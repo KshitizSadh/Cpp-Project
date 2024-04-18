@@ -48,3 +48,15 @@ bash
 - The Caesar cipher technique shifts each alphabet in the text by a fixed amount (the key) to encrypt the text.
 - Make sure to keep your encryption key secret to ensure the security of your data.
 - This tool is for educational purposes and not recommended for secure communications.
+### output
+![image](https://github.com/KshitizSadh/Cpp-Project/assets/142923024/80acdcca-feb0-4022-bbed-20db50785dd9)
+**Encrypted file** 
+![image](https://github.com/KshitizSadh/Cpp-Project/assets/142923024/3a71c2dc-4c14-45c8-a3c7-87d79aeec707)
+---
+![image](https://github.com/KshitizSadh/Cpp-Project/assets/142923024/c3e664c4-d6ab-4bbe-a73d-c4be6534c056)
+**Decrypted file**
+![image](https://github.com/KshitizSadh/Cpp-Project/assets/142923024/e2784a7c-08c7-4984-921c-301681ff5c55)
+
+
+
+
